@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Accordion Card Challenge</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
+    <meta name="description" content="faq accordion card challenge by frontend mentor.">
+    <meta name="keywords" content="faq-accordion-card, frontend mentor, coding challenges">
+    <meta name="author" content="Abdur Rahaman">
+    <!-- Link for Kumbh Sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main stylesheet of the page -->
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <!-- This div is for the box in the illustration -->
+        <div id="illustration-box">    
+            <img src="images/illustration-box-desktop.svg" alt="A box in the illustration">
+        </div>
+        <!-- This div is for the content -->
+        <div id="main-content">
+            <section id="header-image">
+                <picture>
+                    <source srcset="images/illustration-woman-online-desktop.svg"
+                            media="(min-width: 1024px)">
+                    <img src="images/illustration-woman-online-mobile.svg" alt="Illustration of a woman using a computer device"/>
+                </picture>    
+            </section>
+            <section id="faq-section">
+                <header id="faq-header">
+                    <h1>FAQ</h1>
+                </header>
+                <article id="faq-article">
+                    <div id="faq-accordion">
+                        <div class="content-box">
+                            <div role="button" tabindex="0" class="content-question not-activated">
+                                <p>How many team members can I invite?</p>
+                                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="content-answer">
+                                <p>You can have atleast 5 team members.</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div role="button" tabindex="0" class="content-question not-activated">
+                                <p>What is the maximum file upload size?</p>
+                                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="content-answer">
+                                <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div role="button" tabindex="0" class="content-question not-activated">
+                                <p>How do I reset my password?</p>
+                                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="content-answer">
+                                <p>You can change or reset your password through the Settings page. Click on the My Account tab, and click change passowrd option.</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div role="button" tabindex="0" class="content-question not-activated">
+                                <p>Can I cancel my subscription?</p>
+                                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="content-answer">
+                                <p>Definitely! We provide easy account management through the Settings page. Click on the Billing tab, and you'll be able to manage your subscription without a problem.</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div role="button" tabindex="0" class="content-question not-activated">
+                                <p>Do you provide additional support?</p>
+                                <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="content-answer">
+                                <p>Yes, you can contact us via our email.</p>
+                            </div>
+                        </div>
+                    </div> <!-- End of div#faq-accordion -->
+                </article>
+            </section>
+        </div> <!-- End of div#main-content -->
+    </div> <!-- End of div#container -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>window.jQuery || document.write('<script src="script/jquery-3.6.0.min.js"><\/script>');</script>
+    <script src="script/main.js"></script>
+</body>
+</html>
