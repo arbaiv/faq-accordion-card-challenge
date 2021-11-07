@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/arbaiv/faq-accordion-card-challenge)
-- Live Site URL: [Add live site URL here](https://focused-liskov-522e01.netlify.app/)
+- Solution URL: (https://github.com/arbaiv/faq-accordion-card-challenge)
+- Live Site URL: (https://focused-liskov-522e01.netlify.app/)
 
 ## My process
 
