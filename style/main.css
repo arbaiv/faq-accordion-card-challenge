@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
     height: 100%;
 }
-div#container{
+main#container{
     display: grid;
     justify-content: center;
 }

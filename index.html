@@ -17,15 +17,15 @@
     <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="container">
+    <main id="container">
         <!-- This div is for the box in the illustration -->
-        <div id="illustration-box">    
+        <div id="illustration-box" aria-hidden="true">    
             <img src="images/illustration-box-desktop.svg" alt="A box in the illustration">
         </div>
         <!-- This div is for the content -->
         <div id="main-content">
             <div id="header-image">
-                <picture>
+                <picture role="img" aria-label="This is an illustration picture of a woman using a computer device. This is for illustration purposes only.">
                     <source srcset="images/illustration-woman-online-desktop.svg"
                             media="(min-width: 1024px)">
                     <img src="images/illustration-woman-online-mobile.svg" alt="Illustration of a woman using a computer device"/>
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div> <!-- End of div#main-content -->
-    </div> <!-- End of div#container -->
+    </main> <!-- End of main#container -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- If CDN fails to load, serve up the local version -->
     <script>window.jQuery || document.write('<script src="script/jquery-3.6.0.min.js"><\/script>');</script>
